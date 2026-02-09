@@ -118,6 +118,8 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
         "background-shift": "background-shift 3s ease-in-out infinite",
         "breathing": "breathing 4s ease-in-out infinite",
+        "typewriter": "typewriter 4s steps(50, end) infinite",
+        "blink": "blink 1s infinite",
       },
     },
   },
