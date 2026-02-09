@@ -103,8 +103,13 @@
     @apply border-border;
   }
 
+  html {
+    @apply bg-black text-white;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    @apply bg-black text-white animate-background-shift;
+    background-color: rgb(0, 0, 0);
   }
 
   :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
