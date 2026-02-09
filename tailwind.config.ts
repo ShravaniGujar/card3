@@ -80,10 +80,28 @@ export default {
             height: "0",
           },
         },
+        "background-shift": {
+          "0%, 100%": {
+            backgroundColor: "rgb(0, 0, 0)",
+          },
+          "50%": {
+            backgroundColor: "rgb(40, 5, 5)",
+          },
+        },
+        "breathing": {
+          "0%, 100%": {
+            opacity: "0.3",
+          },
+          "50%": {
+            opacity: "1",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "background-shift": "background-shift 3s ease-in-out infinite",
+        "breathing": "breathing 4s ease-in-out infinite",
       },
     },
   },
