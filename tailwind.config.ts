@@ -96,6 +96,22 @@ export default {
             opacity: "1",
           },
         },
+        "typewriter": {
+          "0%": {
+            width: "0",
+          },
+          "100%": {
+            width: "100%",
+          },
+        },
+        "blink": {
+          "0%, 49%": {
+            borderRightColor: "rgba(255, 255, 255, 0.75)",
+          },
+          "50%, 100%": {
+            borderRightColor: "transparent",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
